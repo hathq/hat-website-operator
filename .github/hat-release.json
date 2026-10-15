@@ -1,0 +1,6 @@
+{
+  "repository": "hathq/hat-website-operator",
+  "github_id": 1400280098,
+  "package_id": "hat/website-operator",
+  "binary": "hat-website-operator-worker"
+}
