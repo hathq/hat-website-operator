@@ -84,7 +84,7 @@
     "identity": {
       "catalog_id": "hat-website-operator",
       "version": 1,
-      "digest_sha256": "f2823343c5cdf9bd842e959cedb9e39966aec884a5c111c5684208deae2f13ec"
+      "digest_sha256": "2e02e9f91a1c06a09d03c2160018021fbc75a10d6688bafd411895f10b0e43c7"
     },
     "owner_repository_id": "hat-website-operator",
     "foundation": false,
@@ -92,7 +92,7 @@
       {
         "catalog_id": "hathq.foundation",
         "version": 1,
-        "digest_sha256": "6b618dff030e551bafd6b1a70fe6daf71e2873de9c2230f4cf71e9ac9fbf2c0f"
+        "digest_sha256": "7ed387a86fe00a320784c181a2128da856ccb3e5e3930040ca39d9f5b627a465"
       }
     ],
     "incompatibilities": [],
@@ -100,7 +100,7 @@
       {
         "reference": {
           "catalog_id": "hat-website-operator",
-          "catalog_digest_sha256": "f2823343c5cdf9bd842e959cedb9e39966aec884a5c111c5684208deae2f13ec",
+          "catalog_digest_sha256": "2e02e9f91a1c06a09d03c2160018021fbc75a10d6688bafd411895f10b0e43c7",
           "term_id": "hathq://vocabulary/entity/publication-candidate/v1",
           "version": 1,
           "definition_digest_sha256": "ad3ea61b26baae6615b24e63c510564cff31525bfc930d0828da111680331da2",
@@ -116,7 +116,7 @@
       {
         "reference": {
           "catalog_id": "hat-website-operator",
-          "catalog_digest_sha256": "f2823343c5cdf9bd842e959cedb9e39966aec884a5c111c5684208deae2f13ec",
+          "catalog_digest_sha256": "2e02e9f91a1c06a09d03c2160018021fbc75a10d6688bafd411895f10b0e43c7",
           "term_id": "hathq://vocabulary/state/publication-readiness/v1",
           "version": 1,
           "definition_digest_sha256": "599d414ce49ccdd6481a33e2f800b22c7267c252d02247e0eef4115a7ab99f45",
@@ -132,7 +132,7 @@
       {
         "reference": {
           "catalog_id": "hat-website-operator",
-          "catalog_digest_sha256": "f2823343c5cdf9bd842e959cedb9e39966aec884a5c111c5684208deae2f13ec",
+          "catalog_digest_sha256": "2e02e9f91a1c06a09d03c2160018021fbc75a10d6688bafd411895f10b0e43c7",
           "term_id": "hathq://vocabulary/action/review-publication/v1",
           "version": 1,
           "definition_digest_sha256": "6a82059052bcfc081346a5e23ca281a7e0445acfb964d53d7c2bb67986705b1a",
@@ -146,36 +146,6 @@
         "range": []
       }
     ],
-    "lexicalizations": [],
-    "frames": [
-      {
-        "frame_id": "review-publication-procedure-frame",
-        "definition_digest_sha256": "957733004c1369fb65d15106dfb1b8dd897821eef9fa0850bdee2c2f86886214",
-        "predicate": {
-          "catalog_id": "hat-website-operator",
-          "catalog_digest_sha256": "f2823343c5cdf9bd842e959cedb9e39966aec884a5c111c5684208deae2f13ec",
-          "term_id": "hathq://vocabulary/action/review-publication/v1",
-          "version": 1,
-          "definition_digest_sha256": "6a82059052bcfc081346a5e23ca281a7e0445acfb964d53d7c2bb67986705b1a",
-          "kind": "action"
-        },
-        "roles": [
-          {
-            "role": "actor",
-            "required": true,
-            "accepted_kinds": [
-              "entity-type"
-            ]
-          },
-          {
-            "role": "object",
-            "required": true,
-            "accepted_kinds": [
-              "concept"
-            ]
-          }
-        ]
-      }
-    ]
+    "lexicalizations": []
   }
 }
