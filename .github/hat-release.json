@@ -2,5 +2,10 @@
   "repository": "hathq/hat-website-operator",
   "github_id": 1400280098,
   "package_id": "hat/website-operator",
-  "binary": "hat-website-operator-worker"
+  "binary": "hat-website-operator-worker",
+  "required_workflows": [
+    ".github/workflows/oss-policy.yml",
+    ".github/workflows/public-dependencies.yml",
+    ".github/workflows/release-hat.yml"
+  ]
 }
